@@ -1,0 +1,19 @@
+{
+	"name":"formatd/importer",
+	"type":"neos-package",
+	"description":"This package provides an XML-Importer for Neos Flow entities.",
+    "license": "MIT",
+	"require": {
+		"neos/flow": ">=3.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"FormatD\\Importer\\": "Classes/"
+		}
+	},
+	"extra": {
+		"neos": {
+			"package-key": "FormatD.Importer"
+		}
+	}
+}
